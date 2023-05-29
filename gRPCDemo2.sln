@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcClient", "GrpcClient\GrpcClient.csproj", "{385C02BE-1612-4976-9060-A05297B584DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcServer", "GrpcServer\GrpcServer.csproj", "{15E6E02C-292D-456B-B915-B3D01971E286}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared.Contracts", "Shared\Shared.Contracts.csproj", "{1D85BAEF-DFCE-474D-B1C6-26B3EA04AE3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{385C02BE-1612-4976-9060-A05297B584DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{385C02BE-1612-4976-9060-A05297B584DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{385C02BE-1612-4976-9060-A05297B584DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{385C02BE-1612-4976-9060-A05297B584DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15E6E02C-292D-456B-B915-B3D01971E286}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15E6E02C-292D-456B-B915-B3D01971E286}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15E6E02C-292D-456B-B915-B3D01971E286}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15E6E02C-292D-456B-B915-B3D01971E286}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D85BAEF-DFCE-474D-B1C6-26B3EA04AE3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D85BAEF-DFCE-474D-B1C6-26B3EA04AE3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D85BAEF-DFCE-474D-B1C6-26B3EA04AE3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D85BAEF-DFCE-474D-B1C6-26B3EA04AE3D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
